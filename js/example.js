@@ -9,7 +9,7 @@ var newHeading =  headingText + ' <span class="h2 span">' + totalItems + '</span
 // Part1. Hint: Use the listItems object to iterate through the elements of the list
 for (var i = 0; i < listItems.length; i++) {
     var item = listItems[i];
-    if (item.textContent.trim() === "fresh figs" || item.textContent.trim() === "kale" || item.textContent.trim() === "honey") { item.className = 'cool'; }
+    if (item.textContent.trim() === "fresh figs" || item.textContent.trim() === "kale" || item.textContent.trim() === "honey") { item.className = 'best'; }
 }
 
 
